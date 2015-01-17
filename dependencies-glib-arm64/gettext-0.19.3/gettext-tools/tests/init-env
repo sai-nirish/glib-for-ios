@@ -1,0 +1,43 @@
+# Variable needed by LTLIBINTL.
+top_builddir=../..
+
+OBJEXT="o"
+EXEEXT=""
+CC="gcc"
+CFLAGS="-arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk -miphoneos-version-min=8.1 "
+CXX="/Applications/Xcode.app/Contents/Developer/usr/bin/g++"
+CXXFLAGS="-g -O2"
+CPPFLAGS="-I/Users/rahul/Desktop/ios_compilation/gettext-0.19.3/dependencies/include -I/usr/local/lib -I/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/usr/include/  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk -miphoneos-version-min=8.1 "
+LDFLAGS="-L/Users/rahul/Desktop/ios_compilation/gettext-0.19.3/dependencies/lib -L/usr/local/lib -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/usr/lib  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk -miphoneos-version-min=8.1 "
+LTLIBINTL="${top_builddir}/intl/libintl.la   -Wl,-framework -Wl,CoreFoundation"
+JAVA_CHOICE="yes"
+BUILDJAVA="yes"
+TESTJAVA="yes"
+CSHARP_CHOICE="any"
+BUILDCSHARP="no"
+TESTCSHARP="no"
+TESTLIBASPRINTF="yes"
+GLIBC2="no"
+LOCALE_FR="none"
+LOCALE_FR_UTF8="none"
+LOCALE_JA="ja_JP.eucJP"
+host_os="darwin"
+
+: ${GETTEXT=tstgettext}
+: ${NGETTEXT=tstngettext}
+: ${XGETTEXT=xgettext}
+: ${MSGATTRIB=msgattrib}
+: ${MSGCAT=msgcat}
+: ${MSGCMP=msgcmp}
+: ${MSGCOMM=msgcomm}
+: ${MSGCONV=msgconv}
+: ${MSGEN=msgen}
+: ${MSGEXEC=msgexec}
+: ${MSGFILTER=msgfilter}
+: ${MSGFMT=msgfmt}
+: ${MSGGREP=msggrep}
+: ${MSGINIT=msginit}
+: ${MSGMERGE=msgmerge}
+: ${MSGUNFMT=msgunfmt}
+: ${MSGUNIQ=msguniq}
+: ${RECODE=recode}

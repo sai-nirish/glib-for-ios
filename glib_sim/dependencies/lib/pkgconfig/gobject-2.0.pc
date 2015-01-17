@@ -1,0 +1,12 @@
+prefix=/Users/rahul/Desktop/ios_compilation/glib_sim/dependencies
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GObject
+Description: GLib Type, Object, Parameter and Signal Library
+Requires: glib-2.0
+Version: 2.42.1
+Libs: -L${libdir} -lgobject-2.0
+Libs.private: -L/Users/rahul/Desktop/ios_compilation/glib_sim/dependencies/lib -lffi 
+Cflags:

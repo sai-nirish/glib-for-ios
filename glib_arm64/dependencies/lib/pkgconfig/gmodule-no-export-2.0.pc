@@ -1,0 +1,14 @@
+prefix=/Users/rahul/Desktop/glib_for_ios/dependencies
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+gmodule_supported=true
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Requires: glib-2.0
+Version: 2.42.1
+Libs: -L${libdir} -lgmodule-2.0 
+Libs.private: 
+Cflags: -D_REENTRANT

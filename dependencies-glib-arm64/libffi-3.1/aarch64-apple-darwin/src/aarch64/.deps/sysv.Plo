@@ -1,0 +1,8 @@
+src/aarch64/sysv.lo: ../src/aarch64/sysv.S fficonfig.h include/ffi.h \
+  include/ffitarget.h
+
+fficonfig.h:
+
+include/ffi.h:
+
+include/ffitarget.h:
